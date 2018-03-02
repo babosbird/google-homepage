@@ -1,0 +1,153 @@
+.google {
+  display: grid;
+  #background: yellow;
+  #max-width: 500px;
+  position: relative;
+  #margin: auto;
+  #justify-self: center;
+  justify-content: center;
+  #align-self: center;
+  clear: both;
+  top: 150px;
+}
+ul {
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+}
+
+.footer1 {
+  background: rgb(242, 242, 242);
+  height: 30px;
+  position: absolute;
+  top: 669px;
+  bottom: 0;
+  width: 100%;
+  border-bottom: solid lightgrey 1px;
+}
+
+.footer1 ul {
+  padding: 0 10px;
+}
+.footer1 li {
+  color: rgb(117, 117, 117);
+  font-family: arial;
+  font-size: 16px;
+  padding: 5px 0px;
+  justify-self: center;
+}
+.footer2 {
+  position: absolute;
+  height: 20px;
+  top: 700px;
+  bottom: 0;
+  background: rgb(242, 242, 242);
+  width: 100%;
+  height: 30px;
+  padding: 0px 0px;
+  #display: block;
+
+}
+.footer2 ul {
+  display: inline;
+  padding: 0 0;
+  #align-self: center;
+  #justify-self: center;
+  #background: yellow;
+  height: 30px;
+  #width: 100%;
+}
+
+.footer2 ul:last-of-type {
+  float: right;
+
+}
+.footer2 li {
+  float: left;
+  padding: 0 10px;
+}
+
+.footer2 li a {
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(117, 117, 117)
+}
+
+.footer2 li a:hover {
+  text-decoration: underline;
+}
+
+.google ul {
+  #border: solid black;
+  justify-self: center;
+  padding: 0px;
+}
+.google #search {
+  height: 40px;
+  width: 500px;
+  font-size: 20px;
+  padding: 0 15px;
+  #background: yellow;
+}
+.google #voice {
+  #background: yellow;
+  justify-self: right;
+  z-index: auto;
+  position: absolute;
+  right: 599px;
+  top: 126px;
+  height: 25px;
+  width: 25px;
+
+}
+.google img {
+  justify-self: center;
+  margin: 0 0 25px 0;
+}
+.google li{
+  float: left;
+  #display: inline;
+}
+.google li a {
+  display: block;
+  font-family: arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(117, 117, 117);
+  text-decoration: none;
+  text-align: center;
+  background: rgb(242, 242, 242);
+  #float: center;
+  #clear: left;
+  #border: solid red 0.5px;
+  #max-width: 150px;
+  margin: 30px 5px;
+  padding: 10px 15px;
+}
+.google li a:hover {
+  color: black;
+  border: solid grey 1px;
+  text-decoration: none;
+}
+
+.nav ul {
+  padding: 0;
+  float: right;
+  #background: yellow;
+}
+.nav ul li {
+  float: left;
+  padding: 0 10px;
+}
+.nav li a {
+  display: inline-block;
+  font-family: arial;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+.nav li a:hover {
+  text-decoration: underline;
+}
